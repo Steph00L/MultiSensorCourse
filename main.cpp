@@ -1,9 +1,11 @@
 #include <iostream>
-#include "hello.hpp"
+#include "hello.cpp"
 
 using namespace std;
 
-int main(){
-    hello::fun();
-    cout<<"Finish!\n";
-}
+    int main(){
+        hello::fun();
+        std::cout<<"Finish!\n";
+    }
+
+
