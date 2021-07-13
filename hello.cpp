@@ -1,8 +1,11 @@
-#include <iostream>
+#include "hello.hpp"
 
 using namespace std;
 
-int main(){
-    cout<< "Hello World!\n";
-    cout<< "Hello Steph!\n";
-}
+namespace hello{
+    void fun()
+    {
+        cout<< "Hello Git!\n";
+    }
+};
+
